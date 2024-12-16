@@ -1,7 +1,162 @@
 
-## HTML Text Formatting(04-12-2024)
+## HTML Text Formatting(16-12-2024)
+
+<!DOCTYPE html>
+<html>
+<body
+<p><b>Hello World!!</b></p>
+<p><i>Hello World!!</i></p>
+<p><sub>Hello World!!</sub> And <sup>InterNet World!!</sup></p> //Sub - subcriptcript and superscript
+</body>
+</html>
 
 
+HTML Formatting Elements
+Formatting elements were designed to display special types of text:
+
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+
+
+
+## HTML <blockquote> for Quotations
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Here is a quote from WWF's website:</p>
+
+<blockquote> / is used as a indentation/ 
+For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+</blockquote>
+
+</body>
+</html>
+
+
+## HTML <q> for Short Quotations
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Browsers usually insert quotation marks around the q element.</p>
+
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p> /it q used as Qutation/ 
+
+</body>
+</html>
+
+
+
+## HTML <abbr> for Abbreviations
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+<p>Marking up abbreviations can give useful information to browsers, translation systems and search-engines.</p>
+
+</body>
+</html>
+
+
+## HTML <address> for Contact Information
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The HTML address element defines contact information (author/owner) of a document or article.</p>
+
+<address>
+Written by John Doe.<br> 
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+
+</body>
+</html>
+
+
+## HTML <cite> for Work Title
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The HTML cite element defines the title of a work.</p>
+<p>Browsers usually display cite elements in italic.</p>
+
+<img src="img_the_scream.jpg" width="220" height="277" alt="The Scream">
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+</body>
+</html>
+
+
+## HTML <bdo> for Bi-Directional Override
+BDO stands for Bi-Directional Override.
+
+The HTML <bdo> tag is used to override the current text direction:
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>If your browser supports bi-directional override (bdo), the next line will be written from right to left (rtl):</p>
+
+<bdo dir="rtl">This line will be written from right to left</bdo>
+
+</body>
+</html>
+
+## HTML Comments
+You can add comments to your HTML source by using the following syntax:
+<!-- Write your comments here -->
+
+## Add Comments
+<!-- This is a comment -->
+
+<p>This is a paragraph.</p>
+
+<!-- Remember to add more information here -->
+
+
+
+## Hide Content
+
+<p>This is a paragraph.</p>
+
+<!-- <p>This is another paragraph </p> -->
+
+<p>This is a paragraph too.</p>
+
+## Hide a section of HTML code:
+
+<p>This is a paragraph.</p>
+<!--
+<p>Look at this cool image:</p>
+<img border="0" src="pic_trulli.jpg" alt="Trulli">
+-->
+<p>This is a paragraph too.</p>
+
+
+## Hide Inline Content
+
+<p>This <!-- great text --> is a paragraph.</p>
 
 
 <br>______________________________________________________________________________________________________________<br>
