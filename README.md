@@ -3,6 +3,12 @@
 
 <br>______________________________________________________________________________________________________________<br>
 
+## HTML RGB and RGBA Colors
+An RGB color value represents RED, GREEN, and BLUE light sources.
+
+An RGBA color value is an extension of RGB with an Alpha channel (opacity).
+
+
 
 <br>______________________________________________________________________________________________________________<br>
 ## HTML Colors (17-12-2024)
