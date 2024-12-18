@@ -1,3 +1,75 @@
+<br>______________________________________________________________________________________________________________<br>
+## HTML Styles - CSS ( 18-12-2024)
+CSS stands for Cascading Style Sheets.
+
+CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+
+
+## Inline CSS
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color:blue;">A Blue Heading</h1> <!-- Inline CSS -->
+
+<p style="color:red;">A red paragraph.</p>
+
+</body>
+</html>
+
+
+## Internal CSS
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+
+
+External CSS
+An external style sheet is used to define the style for many HTML pages.
+
+To use an external style sheet, add a link to it in the <head> section of each HTML page:
+
+
+## index.html
+
+!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+## styles.css
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
 
 
 
